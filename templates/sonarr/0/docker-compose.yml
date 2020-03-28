@@ -1,0 +1,17 @@
+sonarr:
+  image: linuxserver/sonarr
+  container_name: sonarr
+  restart: unless-stopped
+  network_mode: "bridge"
+  ports:
+    - "${IP_ADDRESS}:8989:8989"
+  environment:
+    - PUID=${PUID}
+    - PGID=${PGID}
+    - TZ=${TZ}
+  volumes:
+    - "./sonarr:/config"
+    - "${DLDIR}/completed:/data/completed"
+    - "${TVDIR}:/tv"
+    - '${ANIMEDIR}:/anime'
+    - "/etc/localtime:/etc/localtime:ro"

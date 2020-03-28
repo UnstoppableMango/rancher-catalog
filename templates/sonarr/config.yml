@@ -1,0 +1,8 @@
+name: Sonarr
+description: |
+  Smart PVR for newsgroup and bittorrent users
+version: 2.0.0.5322
+category: Media
+maintainer: Erik Rasmussen <ecr.referee@hotmail.com>
+license: The MIT License
+projectURL: https://github.com/Sonarr/Sonarr
