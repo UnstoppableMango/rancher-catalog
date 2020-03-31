@@ -1,0 +1,14 @@
+labels:
+  io.cattle.role: cluster
+  io.rancher.app_min_version: 7.3.0
+categories:
+- torrent
+- sonarr
+questions:
+- variable: defaultImage
+  default: true
+  description: "Use default Docker image"
+  label: Use Default Image
+  type: boolean
+  group: "Container Images"
+  show_subquestion_if: false

@@ -1,7 +1,4 @@
 sonarr:
-  replicas: 1
-
-  image:
-    repository: linuxserver/sonarr
-    tag: 2.0.0.5322-ls29
-    pullPolicy: IfNotPresent
+  enabled: true
+  image: "linuxserver/sonarr"
+  imageTag: "2.0.0.5322-ls29"
