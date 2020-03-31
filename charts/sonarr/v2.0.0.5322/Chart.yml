@@ -9,10 +9,11 @@ keywords:
 - newsgroup
 - pvr
 home: https://sonarr.tv
-icon: ./catalogIcon-sonarr.svg
+icon: ../catalogIcon-sonarr.svg
 sources:
-- https://github.com/UnstoppableMango/rancher-catalog
 - https://github.com/Sonarr/Sonarr
+- https://github.com/linuxserver/docker-sonarr
+- https://github.com/UnstoppableMango/rancher-catalog
 maintainers:
 - name: UnstoppableMango
   email: ecr.referee@hotmail.com
