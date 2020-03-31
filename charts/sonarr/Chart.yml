@@ -1,0 +1,18 @@
+apiVersion: v1
+name: sonarr
+version: 1.0.0
+appVersion: 2.0.0.5322
+description: Smart PVR for newsgroup and bittorrent users
+keywords:
+- bittorrent
+- torrent
+- newsgroup
+- pvr
+home: https://sonarr.tv
+icon: ./catalogIcon-sonarr.svg
+sources:
+- https://github.com/UnstoppableMango/rancher-catalog
+- https://github.com/Sonarr/Sonarr
+maintainers:
+- name: UnstoppableMango
+  email: ecr.referee@hotmail.com
